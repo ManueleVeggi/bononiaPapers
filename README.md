@@ -4,4 +4,4 @@ Repository relativa al seminario "Alla ricerca delle carte bolognesi di XIV sec.
 
 Lavoro di gruppo ad opera di Martina Ravaioli, Andrea Pessotto e Manuele Veggi.
 
-Il sito è disponibilie al seguente [link](index.html)
+Il sito è disponibilie al seguente [link]([index.html](https://manueleveggi.github.io/bononiaPapers/))

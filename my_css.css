@@ -74,9 +74,35 @@ nav {
 
 .textualcontent p{
     font-size: 1.2em;
+    text-align: justify;
 }
 
 .carousel-inner img {
     margin: auto;
-  }
+}
 
+td {
+    vertical-align: top;
+}
+
+th {
+    background: rgb(235, 194, 242);
+}
+
+#table1, #table2, #table3, #table4, #table5 {
+    display: none;
+}
+
+#menu {
+    width: 15%;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#blankspace {
+    width: 5%;
+}
+
+#myTabs {
+    width: 80%;
+}

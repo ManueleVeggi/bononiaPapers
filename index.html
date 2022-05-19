@@ -92,13 +92,868 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id purus scelerisque lorem feugiat consequat
             eget eu dui. Aliquam lacus lectus, sollicitudin ac tempus vitae, tempor non nulla. Sed consectetur faucibus
             ipsum ac accumsan. Mauris sit amet consectetur dolor. In hac habitasse platea dictumst. In lacinia libero
-            eget magna rhoncus, ac condimentum metus molestie. Aliquam massa purus, ornare eget dapibus eu, dignissim ac
-            diam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Orci
-            varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin rutrum sagittis
-            nulla, eu convallis turpis convallis ut. Donec at condimentum risus. Nullam tincidunt justo convallis turpis
-            molestie, sit amet pharetra nunc finibus. Sed facilisis velit dui, sit amet sollicitudin felis accumsan eu.
-            Morbi porta eros non augue porttitor, sit amet facilisis urna condimentum. Duis auctor elementum tellus.
-            Aenean gravida erat vitae turpis gravida, quis ultricies lorem convallis.</p>
+            eget magna rhoncus, ac condimentum metus molestie.</p>
+        <p>Le seguenti tabelle possono essere esportate anche in file in formato <a href="download/Dataframe Spoglio Mensa Arcivescovile.xlsx" download>excel</a> e <a href="download/dfspoglio.csv" download>csv</a></p>
+        <table>
+            <tr>
+                <td id = "menu">
+                    <a onclick='show(1);'>Mensa Arcivescovile, Libro B</a>
+                    <br /> <br />
+                    <a onclick='show(2);'>Mensa Arcivescovile, Libro C</a>
+                    <br /> <br />
+                    <a onclick='show(3);'>Mensa Arcivescovile, Copie di bolle etc.</a>
+                    <br /> <br />
+                    <a onclick='show(4);'>Instrumenti</a>
+                    <br /> <br />
+                    <a onclick='show(5);'>Archivi e quaderni, Raccolta di mons. V. Smoczynski<sup>*</sup></a>
+                </td>
+                <td id = "blankspace">
+                    <p></p>
+                </td>
+                <td id = "myTabs">
+                    <div id="table1"> 
+                            <table class="table table-bordered table-hover table-condensed">
+                                <thead><tr><th title="Field #1">Fondo</th>
+                                <th title="Field #2">Serie</th>
+                                <th title="Field #3">Busta</th>
+                                <th title="Field #4">Numero</th>
+                                <th title="Field #5">Datazione</th>
+                                <th title="Field #6">Titolo</th>
+                                <th title="Field #7">Rogito</th>
+                                <th title="Field #8">Status</th>
+                                <th title="Field #9">Note al rogito</th>
+                                </tr></thead>
+                                <tbody><tr>
+                                <td>Mensa arcivescovile</td>
+                                <td>Documenti della Reverenda Mensa Arcivescovile di Bologna</td>
+                                <td>Libro B</td>
+                                <td align="right">6</td>
+                                <td>20/2/1300</td>
+                                <td>Divisione</td>
+                                <td>Giovanni Lombardini</td>
+                                <td>Autentico</td>
+                                <td> </td>
+                                </tr>
+                                <tr>
+                                <td>Mensa arcivescovile</td>
+                                <td>Documenti della Reverenda Mensa Arcivescovile di Bologna</td>
+                                <td>Libro B</td>
+                                <td align="right">7</td>
+                                <td>5/7/1302</td>
+                                <td>Testamento</td>
+                                <td>Primirano Sangiorgi e Manfredo dall’Osino</td>
+                                <td>Copia</td>
+                                <td> </td>
+                                </tr>
+                                <tr>
+                                <td>Mensa arcivescovile</td>
+                                <td>Documenti della Reverenda Mensa Arcivescovile di Bologna</td>
+                                <td>Libro B</td>
+                                <td align="right">8</td>
+                                <td>31/8/1304</td>
+                                <td>Confessione</td>
+                                <td>Leonardo dall’Amola</td>
+                                <td>Copia</td>
+                                <td> </td>
+                                </tr>
+                                <tr>
+                                <td>Mensa arcivescovile</td>
+                                <td>Documenti della Reverenda Mensa Arcivescovile di Bologna</td>
+                                <td>Libro B</td>
+                                <td align="right">9</td>
+                                <td>31/1/1305</td>
+                                <td>Transazione</td>
+                                <td>Raniero Giuseppe dalla carità Cento (?)</td>
+                                <td>Autentico</td>
+                                <td> </td>
+                                </tr>
+                                <tr>
+                                <td>Mensa arcivescovile</td>
+                                <td>Documenti della Reverenda Mensa Arcivescovile di Bologna</td>
+                                <td>Libro B</td>
+                                <td align="right">10</td>
+                                <td>21/9/1305</td>
+                                <td>Assoluzione</td>
+                                <td>Bernardo dall’Amola</td>
+                                <td>Copia</td>
+                                <td> </td>
+                                </tr>
+                                <tr>
+                                <td>Mensa arcivescovile</td>
+                                <td>Documenti della Reverenda Mensa Arcivescovile di Bologna</td>
+                                <td>Libro B</td>
+                                <td align="right">11</td>
+                                <td>24/11/1308</td>
+                                <td>Rinnovazione</td>
+                                <td>Gerardino Bugli</td>
+                                <td>Autentico</td>
+                                <td> </td>
+                                </tr>
+                                <tr>
+                                <td>Mensa arcivescovile</td>
+                                <td>Documenti della Reverenda Mensa Arcivescovile di Bologna</td>
+                                <td>Libro B</td>
+                                <td align="right">12</td>
+                                <td>25/2/1310</td>
+                                <td>Locazione</td>
+                                <td>Tommasino Crocevalli</td>
+                                <td>Autentico / Copia</td>
+                                <td>2 Copie: autentico con copia semplice</td>
+                                </tr>
+                                <tr>
+                                <td>Mensa arcivescovile</td>
+                                <td>Documenti della Reverenda Mensa Arcivescovile di Bologna</td>
+                                <td>Libro B</td>
+                                <td align="right">13</td>
+                                <td>17/5/1314</td>
+                                <td>Locazione</td>
+                                <td>Giacomo Tassi</td>
+                                <td>Autentico</td>
+                                <td> </td>
+                                </tr>
+                                <tr>
+                                <td>Mensa arcivescovile</td>
+                                <td>Documenti della Reverenda Mensa Arcivescovile di Bologna</td>
+                                <td>Libro B</td>
+                                <td align="right">14</td>
+                                <td>10/7/1316</td>
+                                <td>Convenzione</td>
+                                <td>Giacomo Tassi (?)</td>
+                                <td>Autentico</td>
+                                <td> </td>
+                                </tr>
+                                <tr>
+                                <td>Mensa arcivescovile</td>
+                                <td>Documenti della Reverenda Mensa Arcivescovile di Bologna</td>
+                                <td>Libro B</td>
+                                <td align="right">15</td>
+                                <td>17/6/1333</td>
+                                <td>Locazione</td>
+                                <td>Pietro Tancredi</td>
+                                <td>Copia</td>
+                                <td> </td>
+                                </tr>
+                                <tr>
+                                <td>Mensa arcivescovile</td>
+                                <td>Documenti della Reverenda Mensa Arcivescovile di Bologna</td>
+                                <td>Libro B</td>
+                                <td align="right">16</td>
+                                <td>5/4/1338</td>
+                                <td>Locazione</td>
+                                <td>Giovanni Soldadieri</td>
+                                <td>Autentico</td>
+                                <td> </td>
+                                </tr>
+                                <tr>
+                                <td>Mensa arcivescovile</td>
+                                <td>Documenti della Reverenda Mensa Arcivescovile di Bologna</td>
+                                <td>Libro B</td>
+                                <td align="right">16</td>
+                                <td>6/4/1338</td>
+                                <td>Locazione</td>
+                                <td>Giovanni Soldadieri</td>
+                                <td>Autentico</td>
+                                <td> </td>
+                                </tr>
+                                <tr>
+                                <td>Mensa arcivescovile</td>
+                                <td>Documenti della Reverenda Mensa Arcivescovile di Bologna</td>
+                                <td>Libro B</td>
+                                <td align="right">17</td>
+                                <td>16/4/1341</td>
+                                <td>Breve</td>
+                                <td>NA</td>
+                                <td>Copia</td>
+                                <td> </td>
+                                </tr>
+                                <tr>
+                                <td>Mensa arcivescovile</td>
+                                <td>Documenti della Reverenda Mensa Arcivescovile di Bologna</td>
+                                <td>Libro B</td>
+                                <td align="right">18</td>
+                                <td>28/4/1345</td>
+                                <td>Bolla</td>
+                                <td>NA</td>
+                                <td>Autentico</td>
+                                <td> </td>
+                                </tr>
+                                <tr>
+                                <td>Mensa arcivescovile</td>
+                                <td>Documenti della Reverenda Mensa Arcivescovile di Bologna</td>
+                                <td>Libro B</td>
+                                <td align="right">19</td>
+                                <td>21/11/1345</td>
+                                <td>Processo</td>
+                                <td>NA</td>
+                                <td>Autentico</td>
+                                <td> </td>
+                                </tr>
+                                <tr>
+                                <td>Mensa arcivescovile</td>
+                                <td>Documenti della Reverenda Mensa Arcivescovile di Bologna</td>
+                                <td>Libro B</td>
+                                <td align="right">20</td>
+                                <td>29/9/1350</td>
+                                <td>Bolla</td>
+                                <td>NA</td>
+                                <td>Copia</td>
+                                <td> </td>
+                                </tr>
+                                <tr>
+                                <td>Mensa arcivescovile</td>
+                                <td>Documenti della Reverenda Mensa Arcivescovile di Bologna</td>
+                                <td>Libro B</td>
+                                <td align="right">21</td>
+                                <td>10/2/1365</td>
+                                <td>Bolla</td>
+                                <td>NA</td>
+                                <td>Copia</td>
+                                <td>3 Copie</td>
+                                </tr>
+                                <tr>
+                                <td>Mensa arcivescovile</td>
+                                <td>Documenti della Reverenda Mensa Arcivescovile di Bologna</td>
+                                <td>Libro B</td>
+                                <td align="right">22</td>
+                                <td>3/12/1366</td>
+                                <td>Ricevuta</td>
+                                <td>Paolo Cespi</td>
+                                <td>Copia</td>
+                                <td> </td>
+                                </tr>
+                                <tr>
+                                <td>Mensa arcivescovile</td>
+                                <td>Documenti della Reverenda Mensa Arcivescovile di Bologna</td>
+                                <td>Libro B</td>
+                                <td align="right">23</td>
+                                <td>8/12/1366</td>
+                                <td>Ricevuta</td>
+                                <td>Paolo Cespi</td>
+                                <td>Copia</td>
+                                <td> </td>
+                                </tr>
+                                <tr>
+                                <td>Mensa arcivescovile</td>
+                                <td>Documenti della Reverenda Mensa Arcivescovile di Bologna</td>
+                                <td>Libro B</td>
+                                <td align="right">24</td>
+                                <td>26/1/1367</td>
+                                <td>Ricevuta</td>
+                                <td>Paolo Cespi</td>
+                                <td>Copia</td>
+                                <td> </td>
+                                </tr>
+                                <tr>
+                                <td>Mensa arcivescovile</td>
+                                <td>Documenti della Reverenda Mensa Arcivescovile di Bologna</td>
+                                <td>Libro B</td>
+                                <td align="right">25</td>
+                                <td>30/1/1367</td>
+                                <td>Assoluzione</td>
+                                <td>Paolo Cespi</td>
+                                <td>Copia</td>
+                                <td> </td>
+                                </tr>
+                                <tr>
+                                <td>Mensa arcivescovile</td>
+                                <td>Documenti della Reverenda Mensa Arcivescovile di Bologna</td>
+                                <td>Libro B</td>
+                                <td align="right">26</td>
+                                <td>5/6/1370</td>
+                                <td>Ricevuta</td>
+                                <td>Giovanni Albiroli</td>
+                                <td>Copia</td>
+                                <td> </td>
+                                </tr>
+                                <tr>
+                                <td>Mensa arcivescovile</td>
+                                <td>Documenti della Reverenda Mensa Arcivescovile di Bologna</td>
+                                <td>Libro B</td>
+                                <td align="right">27</td>
+                                <td>6/7/1370</td>
+                                <td>Ricevuta</td>
+                                <td>Giovanni Albiroli</td>
+                                <td>Copia</td>
+                                <td> </td>
+                                </tr>
+                                <tr>
+                                <td>Mensa arcivescovile</td>
+                                <td>Documenti della Reverenda Mensa Arcivescovile di Bologna</td>
+                                <td>Libro B</td>
+                                <td align="right">28</td>
+                                <td>15/10/1371</td>
+                                <td>Locazione</td>
+                                <td>Paolo Cespi</td>
+                                <td>Copia</td>
+                                <td> </td>
+                                </tr>
+                                <tr>
+                                <td>Mensa arcivescovile</td>
+                                <td>Documenti della Reverenda Mensa Arcivescovile di Bologna</td>
+                                <td>Libro B</td>
+                                <td align="right">29</td>
+                                <td>12/7/1372</td>
+                                <td>Compra</td>
+                                <td>Giovanni Ugolini</td>
+                                <td>Autentico</td>
+                                <td> </td>
+                                </tr>
+                                <tr>
+                                <td>Mensa arcivescovile</td>
+                                <td>Documenti della Reverenda Mensa Arcivescovile di Bologna</td>
+                                <td>Libro B</td>
+                                <td align="right">30</td>
+                                <td>16/1/1374</td>
+                                <td>Bolla</td>
+                                <td>NA</td>
+                                <td>Copia</td>
+                                <td> </td>
+                                </tr>
+                                <tr>
+                                <td>Mensa arcivescovile</td>
+                                <td>Documenti della Reverenda Mensa Arcivescovile di Bologna</td>
+                                <td>Libro B</td>
+                                <td align="right">31</td>
+                                <td>30/6/1374</td>
+                                <td>Promessa</td>
+                                <td>Giovanni Albiroli</td>
+                                <td>Copia</td>
+                                <td> </td>
+                                </tr>
+                                <tr>
+                                <td>Mensa arcivescovile</td>
+                                <td>Documenti della Reverenda Mensa Arcivescovile di Bologna</td>
+                                <td>Libro B</td>
+                                <td align="right">32</td>
+                                <td>3/7/1374</td>
+                                <td>Promessa</td>
+                                <td>Giovanni Albiroli</td>
+                                <td>Copia</td>
+                                <td> </td>
+                                </tr>
+                                <tr>
+                                <td>Mensa arcivescovile</td>
+                                <td>Documenti della Reverenda Mensa Arcivescovile di Bologna</td>
+                                <td>Libro B</td>
+                                <td align="right">33</td>
+                                <td>3/7/1374</td>
+                                <td>Promessa</td>
+                                <td>Giovanni Albiroli</td>
+                                <td>Copia</td>
+                                <td> </td>
+                                </tr>
+                                <tr>
+                                <td>Mensa arcivescovile</td>
+                                <td>Documenti della Reverenda Mensa Arcivescovile di Bologna</td>
+                                <td>Libro B</td>
+                                <td align="right">34</td>
+                                <td>13/10/1378</td>
+                                <td>Locazione</td>
+                                <td>Paolo Cespi</td>
+                                <td>Copia</td>
+                                <td> </td>
+                                </tr>
+                                <tr>
+                                <td>Mensa arcivescovile</td>
+                                <td>Documenti della Reverenda Mensa Arcivescovile di Bologna</td>
+                                <td>Libro B</td>
+                                <td align="right">35</td>
+                                <td>15/10/1378</td>
+                                <td>Locazione</td>
+                                <td>Paolo Cespi</td>
+                                <td>Copia</td>
+                                <td> </td>
+                                </tr>
+                                <tr>
+                                <td>Mensa arcivescovile</td>
+                                <td>Documenti della Reverenda Mensa Arcivescovile di Bologna</td>
+                                <td>Libro B</td>
+                                <td align="right">36</td>
+                                <td>16/10/1378</td>
+                                <td>Assoluzione</td>
+                                <td>Paolo Cespi</td>
+                                <td>Copia</td>
+                                <td> </td>
+                                </tr>
+                                <tr>
+                                <td>Mensa arcivescovile</td>
+                                <td>Documenti della Reverenda Mensa Arcivescovile di Bologna</td>
+                                <td>Libro B</td>
+                                <td align="right">36</td>
+                                <td>9/12/1378</td>
+                                <td>Ricevuta</td>
+                                <td>Paolo Cespi</td>
+                                <td>Copia</td>
+                                <td> </td>
+                                </tr>
+                                <tr>
+                                <td>Mensa arcivescovile</td>
+                                <td>Documenti della Reverenda Mensa Arcivescovile di Bologna</td>
+                                <td>Libro B</td>
+                                <td align="right">36</td>
+                                <td>16/12/1378</td>
+                                <td>Assoluzione</td>
+                                <td>Paolo Cespi</td>
+                                <td>Copia</td>
+                                <td> </td>
+                                </tr>
+                                <tr>
+                                <td>Mensa arcivescovile</td>
+                                <td>Documenti della Reverenda Mensa Arcivescovile di Bologna</td>
+                                <td>Libro B</td>
+                                <td align="right">37</td>
+                                <td>23/11/1380</td>
+                                <td>Locazione</td>
+                                <td>Giovanni Albiroli</td>
+                                <td>Copia</td>
+                                <td> </td>
+                                </tr>
+                                <tr>
+                                <td>Mensa arcivescovile</td>
+                                <td>Documenti della Reverenda Mensa Arcivescovile di Bologna</td>
+                                <td>Libro B</td>
+                                <td align="right">38</td>
+                                <td>14/2/1381</td>
+                                <td>Locazione</td>
+                                <td>Giovanni Angelelli</td>
+                                <td>Autentico</td>
+                                <td>2 Copie semplici</td>
+                                </tr>
+                                <tr>
+                                <td>Mensa arcivescovile</td>
+                                <td>Documenti della Reverenda Mensa Arcivescovile di Bologna</td>
+                                <td>Libro B</td>
+                                <td align="right">38</td>
+                                <td>22/2/1383</td>
+                                <td>Locazione</td>
+                                <td>Giovanni Angelelli</td>
+                                <td>Autentico</td>
+                                <td>2 Copie semplici</td>
+                                </tr>
+                                <tr>
+                                <td>Mensa arcivescovile</td>
+                                <td>Documenti della Reverenda Mensa Arcivescovile di Bologna</td>
+                                <td>Libro B</td>
+                                <td align="right">39</td>
+                                <td>20/12/1381</td>
+                                <td>Locazione</td>
+                                <td>Pellegrino Zambeccari</td>
+                                <td>Autentico</td>
+                                <td>Copia</td>
+                                </tr>
+                                <tr>
+                                <td>Mensa arcivescovile</td>
+                                <td>Documenti della Reverenda Mensa Arcivescovile di Bologna</td>
+                                <td>Libro B</td>
+                                <td align="right">40</td>
+                                <td>26/1/1382</td>
+                                <td>Assoluzione</td>
+                                <td>Giovanni Albiroli</td>
+                                <td>Copia</td>
+                                <td> </td>
+                                </tr>
+                                <tr>
+                                <td>Mensa arcivescovile</td>
+                                <td>Documenti della Reverenda Mensa Arcivescovile di Bologna</td>
+                                <td>Libro B</td>
+                                <td align="right">41</td>
+                                <td>19/4/1382</td>
+                                <td>Locazione</td>
+                                <td>Giovanni Albiroli</td>
+                                <td>Copia</td>
+                                <td> </td>
+                                </tr>
+                                <tr>
+                                <td>Mensa arcivescovile</td>
+                                <td>Documenti della Reverenda Mensa Arcivescovile di Bologna</td>
+                                <td>Libro B</td>
+                                <td align="right">42</td>
+                                <td>6/7/1382</td>
+                                <td>Promessa</td>
+                                <td>Giovanni Albiroli</td>
+                                <td>Copia</td>
+                                <td> </td>
+                                </tr>
+                                <tr>
+                                <td>Mensa arcivescovile</td>
+                                <td>Documenti della Reverenda Mensa Arcivescovile di Bologna</td>
+                                <td>Libro B</td>
+                                <td align="right">43</td>
+                                <td>25/8/1382</td>
+                                <td>Ricevuta</td>
+                                <td>Giovanni Albiroli</td>
+                                <td>Copia</td>
+                                <td> </td>
+                                </tr>
+                                <tr>
+                                <td>Mensa arcivescovile</td>
+                                <td>Documenti della Reverenda Mensa Arcivescovile di Bologna</td>
+                                <td>Libro B</td>
+                                <td align="right">44</td>
+                                <td>25/8/1382</td>
+                                <td>Locazione</td>
+                                <td>Pellegrino Zambeccari</td>
+                                <td>Copia</td>
+                                <td> </td>
+                                </tr>
+                                <tr>
+                                <td>Mensa arcivescovile</td>
+                                <td>Documenti della Reverenda Mensa Arcivescovile di Bologna</td>
+                                <td>Libro B</td>
+                                <td align="right">45</td>
+                                <td>7/9/1382</td>
+                                <td>Ricevuta</td>
+                                <td>Giovanni Albiroli</td>
+                                <td>Copia</td>
+                                <td> </td>
+                                </tr>
+                                </tbody></table>
+                    </div>
+                    <div id="table2">
+                        <table class="table table-bordered table-hover table-condensed">
+                            <thead><tr><th title="Field #1">Fondo</th>
+                            <th title="Field #2">Serie</th>
+                            <th title="Field #3">Busta</th>
+                            <th title="Field #4">Numero</th>
+                            <th title="Field #5">Datazione</th>
+                            <th title="Field #6">Titolo</th>
+                            <th title="Field #7">Rogito</th>
+                            <th title="Field #8">Status</th>
+                            <th title="Field #9">Note al rogito</th>
+                            </tr></thead>
+                            <tbody><tr>
+                            <td>Mensa arcivescovile</td>
+                            <td>Documenti della Reverenda Mensa Arcivescovile di Bologna</td>
+                            <td>Libro C</td>
+                            <td align="right">1</td>
+                            <td>10/3/1383</td>
+                            <td>Locazione</td>
+                            <td>Giovanni Albiroli</td>
+                            <td>Copia</td>
+                            <td> </td>
+                            </tr>
+                            <tr>
+                            <td>Mensa arcivescovile</td>
+                            <td>Documenti della Reverenda Mensa Arcivescovile di Bologna</td>
+                            <td>Libro C</td>
+                            <td align="right">1</td>
+                            <td>6/10/1388</td>
+                            <td>Locazione</td>
+                            <td>Giovanni Albiroli</td>
+                            <td>Copia</td>
+                            <td> </td>
+                            </tr>
+                            <tr>
+                            <td>Mensa arcivescovile</td>
+                            <td>Documenti della Reverenda Mensa Arcivescovile di Bologna</td>
+                            <td>Libro C</td>
+                            <td align="right">2</td>
+                            <td>9/2/1384</td>
+                            <td>Locazione</td>
+                            <td>Giovanni Albiroli</td>
+                            <td>Copia</td>
+                            <td> </td>
+                            </tr>
+                            <tr>
+                            <td>Mensa arcivescovile</td>
+                            <td>Documenti della Reverenda Mensa Arcivescovile di Bologna</td>
+                            <td>Libro C</td>
+                            <td align="right">3</td>
+                            <td>12/3/1384</td>
+                            <td>Locazione</td>
+                            <td>Giovanni Albiroli</td>
+                            <td>Copia</td>
+                            <td> </td>
+                            </tr>
+                            <tr>
+                            <td>Mensa arcivescovile</td>
+                            <td>Documenti della Reverenda Mensa Arcivescovile di Bologna</td>
+                            <td>Libro C</td>
+                            <td align="right">4</td>
+                            <td>13/3/1384</td>
+                            <td>Locazione</td>
+                            <td>Giovanni Albiroli</td>
+                            <td>Copia</td>
+                            <td> </td>
+                            </tr>
+                            <tr>
+                            <td>Mensa arcivescovile</td>
+                            <td>Documenti della Reverenda Mensa Arcivescovile di Bologna</td>
+                            <td>Libro C</td>
+                            <td align="right">5</td>
+                            <td>27/5/1384</td>
+                            <td>Locazione</td>
+                            <td>Giovanni Albiroli</td>
+                            <td>Copia</td>
+                            <td> </td>
+                            </tr>
+                            <tr>
+                            <td>Mensa arcivescovile</td>
+                            <td>Documenti della Reverenda Mensa Arcivescovile di Bologna</td>
+                            <td>Libro C</td>
+                            <td align="right">6</td>
+                            <td>11/6/1384</td>
+                            <td>Assoluzione</td>
+                            <td>Giovanni Albiroli</td>
+                            <td>Copia</td>
+                            <td> </td>
+                            </tr>
+                            <tr>
+                            <td>Mensa arcivescovile</td>
+                            <td>Documenti della Reverenda Mensa Arcivescovile di Bologna</td>
+                            <td>Libro C</td>
+                            <td align="right">7</td>
+                            <td>6/11/1384</td>
+                            <td>Rinnovazione</td>
+                            <td>Giovanni Albiroli</td>
+                            <td>Copia</td>
+                            <td> </td>
+                            </tr>
+                            <tr>
+                            <td>Mensa arcivescovile</td>
+                            <td>Documenti della Reverenda Mensa Arcivescovile di Bologna</td>
+                            <td>Libro C</td>
+                            <td align="right">8</td>
+                            <td>10/11/1384</td>
+                            <td>Locazione</td>
+                            <td>Giovanni Albiroli</td>
+                            <td>Copia</td>
+                            <td> </td>
+                            </tr>
+                            <tr>
+                            <td>Mensa arcivescovile</td>
+                            <td>Documenti della Reverenda Mensa Arcivescovile di Bologna</td>
+                            <td>Libro C</td>
+                            <td align="right">9</td>
+                            <td>12/11/1384</td>
+                            <td>Locazione</td>
+                            <td>Giovanni Albiroli</td>
+                            <td>Copia</td>
+                            <td> </td>
+                            </tr>
+                            <tr>
+                            <td>Mensa arcivescovile</td>
+                            <td>Documenti della Reverenda Mensa Arcivescovile di Bologna</td>
+                            <td>Libro C</td>
+                            <td align="right">10</td>
+                            <td>13/11/1384</td>
+                            <td>Locazione</td>
+                            <td>Giovanni Albiroli</td>
+                            <td>Copia</td>
+                            <td> </td>
+                            </tr>
+                            <tr>
+                            <td>Mensa arcivescovile</td>
+                            <td>Documenti della Reverenda Mensa Arcivescovile di Bologna</td>
+                            <td>Libro C</td>
+                            <td align="right">11</td>
+                            <td>10/6/1387</td>
+                            <td>Assoluzione</td>
+                            <td>Giovanni Duglioli</td>
+                            <td>Autentico</td>
+                            <td> </td>
+                            </tr>
+                            <tr>
+                            <td>Mensa arcivescovile</td>
+                            <td>Documenti della Reverenda Mensa Arcivescovile di Bologna</td>
+                            <td>Libro C</td>
+                            <td align="right">11</td>
+                            <td>22/10/1387</td>
+                            <td>Assoluzione</td>
+                            <td>Giovanni Duglioli</td>
+                            <td>Autentico</td>
+                            <td> </td>
+                            </tr>
+                            <tr>
+                            <td>Mensa arcivescovile</td>
+                            <td>Documenti della Reverenda Mensa Arcivescovile di Bologna</td>
+                            <td>Libro C</td>
+                            <td align="right">12</td>
+                            <td>29/10/1392</td>
+                            <td>Bolla</td>
+                            <td>NA</td>
+                            <td>Copia</td>
+                            <td>Copia semplice, cfr C13</td>
+                            </tr>
+                            <tr>
+                            <td>Mensa arcivescovile</td>
+                            <td>Documenti della Reverenda Mensa Arcivescovile di Bologna</td>
+                            <td>Libro C</td>
+                            <td align="right">13</td>
+                            <td>6/12/1392</td>
+                            <td>Promessa</td>
+                            <td>Pellegrino Berghesani</td>
+                            <td>Autentico</td>
+                            <td> </td>
+                            </tr>
+                            <tr>
+                            <td>Mensa arcivescovile</td>
+                            <td>Documenti della Reverenda Mensa Arcivescovile di Bologna</td>
+                            <td>Libro C</td>
+                            <td align="right">14</td>
+                            <td>20/12/1397</td>
+                            <td>Promessa</td>
+                            <td>Giovanni Duglioli</td>
+                            <td>Autentico</td>
+                            <td> </td>
+                            </tr>
+                            </tbody></table> 
+                    </div>
+                    <div id="table3">
+                        <table class="table table-bordered table-hover table-condensed">
+                            <thead><tr><th title="Field #1">Fondo</th>
+                            <th title="Field #2">Serie</th>
+                            <th title="Field #3">Busta</th>
+                            <th title="Field #4">Numero</th>
+                            <th title="Field #5">Datazione</th>
+                            <th title="Field #6">Titolo</th>
+                            <th title="Field #7">Rogito</th>
+                            <th title="Field #8">Status</th>
+                            <th title="Field #9">Note al rogito</th>
+                            </tr></thead>
+                            <tbody><tr>
+                            <td>Mensa arcivescovile</td>
+                            <td>Copie di bolle, brevi, privilegi e istrumenti</td>
+                            <td>59 (ex Mensa cart. 62/10 n.1)</td>
+                            <td align="right">25</td>
+                            <td>10/2/1365</td>
+                            <td> </td>
+                            <td> </td>
+                            <td>Copia</td>
+                            <td>Copia tarda</td>
+                            </tr>
+                            </tbody></table>
+                    </div>
+                    <div id="table4">
+                        <table class="table table-bordered table-hover table-condensed">
+                            <thead><tr><th title="Field #1">Fondo</th>
+                            <th title="Field #2">Serie</th>
+                            <th title="Field #3">Busta</th>
+                            <th title="Field #4">Numero</th>
+                            <th title="Field #5">Datazione</th>
+                            <th title="Field #6">Titolo</th>
+                            <th title="Field #7">Rogito</th>
+                            <th title="Field #8">Status</th>
+                            <th title="Field #9">Note al rogito</th>
+                            </tr></thead>
+                            <tbody><tr>
+                            <td>Instrumenti</td>
+                            <td>NA</td>
+                            <td>1</td>
+                            <td align="right">5</td>
+                            <td>2/10/1349</td>
+                            <td> </td>
+                            <td> </td>
+                            <td>Autentico</td>
+                            <td> </td>
+                            </tr>
+                            <tr>
+                            <td>Instrumenti</td>
+                            <td>NA</td>
+                            <td>1</td>
+                            <td align="right">6</td>
+                            <td>19/12/1388</td>
+                            <td> </td>
+                            <td> </td>
+                            <td>Autentico</td>
+                            <td> </td>
+                            </tr>
+                            <tr>
+                            <td>Instrumenti</td>
+                            <td>NA</td>
+                            <td>1</td>
+                            <td align="right">7</td>
+                            <td>30/12/1389</td>
+                            <td> </td>
+                            <td> </td>
+                            <td>Autentico</td>
+                            <td> </td>
+                            </tr>
+                            <tr>
+                            <td>Instrumenti</td>
+                            <td>NA</td>
+                            <td>1</td>
+                            <td align="right">8</td>
+                            <td>31/1/1347</td>
+                            <td> </td>
+                            <td> </td>
+                            <td>Copia</td>
+                            <td> </td>
+                            </tr>
+                            <tr>
+                            <td>Instrumenti</td>
+                            <td>NA</td>
+                            <td>1</td>
+                            <td align="right">9</td>
+                            <td>21/8/1394</td>
+                            <td> </td>
+                            <td> </td>
+                            <td>Autentico</td>
+                            <td> </td>
+                            </tr>
+                            <tr>
+                            <td>Instrumenti</td>
+                            <td>NA</td>
+                            <td>1</td>
+                            <td align="right">10</td>
+                            <td>7/11/1394</td>
+                            <td> </td>
+                            <td> </td>
+                            <td>Autentico</td>
+                            <td> </td>
+                            </tr>
+                            <tr>
+                            <td>Instrumenti</td>
+                            <td>NA</td>
+                            <td>1</td>
+                            <td align="right">11</td>
+                            <td>12/8/1388</td>
+                            <td> </td>
+                            <td> </td>
+                            <td>Autentico</td>
+                            <td> </td>
+                            </tr>
+                            <tr>
+                            <td>Instrumenti</td>
+                            <td>NA</td>
+                            <td>1</td>
+                            <td align="right">12</td>
+                            <td>20/6/1397</td>
+                            <td> </td>
+                            <td> </td>
+                            <td>Autentico</td>
+                            <td> </td>
+                            </tr>
+                            </tbody></table>
+                    </div>
+                    <div id="table5">
+                        <table class="table table-bordered table-hover table-condensed">
+                            <thead><tr><th title="Field #1">Fondo</th>
+                            <th title="Field #2">Serie</th>
+                            <th title="Field #3">Busta</th>
+                            <th title="Field #4">Numero</th>
+                            <th title="Field #5">Datazione</th>
+                            <th title="Field #6">Titolo</th>
+                            <th title="Field #7">Rogito</th>
+                            <th title="Field #8">Status</th>
+                            <th title="Field #9">Note al rogito</th>
+                            </tr></thead>
+                            <tbody><tr>
+                            <td>Archivi e quaderni</td>
+                            <td>Raccolta di autografi di mons. Vincenzo Smoczynski</td>
+                            <td align="right">50</td>
+                            <td align="right">20</td>
+                            <td>20/1/1374</td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            </tr>
+                            </tbody></table>
+                    </div>
+                </td>
+            </tr>
+        </table>
     </section>
     <section class="textualcontent" id="digitalizzazione">
         <h1>La digitalizzazione</h1>

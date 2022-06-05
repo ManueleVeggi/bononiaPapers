@@ -94,6 +94,14 @@ nav ul {
     margin: auto;
 }
 
+.carousel-control-prev {
+  margin-left: 20%;
+}
+
+.carousel-control-next {
+  margin-right: 20%;
+}
+
 td {
     vertical-align: top;
 }
@@ -216,3 +224,4 @@ table th {
     text-align:center
   }
 }
+

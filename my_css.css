@@ -84,6 +84,8 @@ nav ul {
 .textualcontent h1{
   font-size: 1.3em;
   text-align: justify;
+  font-weight: bold;
+  color: rgb(91, 19, 91);
 }
 
 .carousel-inner img {
